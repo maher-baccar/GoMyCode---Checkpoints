@@ -1,0 +1,359 @@
+* {
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: black;
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: #ddd;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+/* Style all font awesome icons */
+
+.fa {
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 50px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    align-items: center;
+}
+
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+/* instagram */
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+/* linkedin */
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+
+/*github */
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+
+/*youtube */
+
+.fa-youtube {
+    color: red;
+}
+
+.home {
+    margin-top: 20px;
+    display: inline-flex;
+    background-color: #ddd;
+}
+
+.home .block_1 {
+    margin-left: 200px;
+    align-items: center;
+}
+
+.home .block_2 img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 200px;
+}
+
+.home .block_1 .contact_bar {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+h1 {
+    text-align: center;
+    color: #3B5998;
+}
+
+footer {
+    margin: 10p;
+    background-color: #ddd;
+    text-align: center;
+}
+
+#about {
+    background-color: #ddd;
+}
+
+#about img {
+    margin-left: 20px;
+}
+
+#about p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.am_2 {
+    display: inline-flex;
+}
+
+.am_4 {
+    display: inline;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.first_p {
+    text-align: center;
+}
+
+#resume {
+    margin-top: 20px;
+    background-color: #ddd;
+    display: inline-flex;
+}
+
+
+/* Container for skill bars */
+
+.container {
+    width: 800%;
+    /* Full width */
+    background-color: #ddd;
+    /* Grey background */
+}
+
+.skills {
+    text-align: right;
+    /* Right-align text */
+    padding-top: 10px;
+    /* Add top padding */
+    padding-bottom: 10px;
+    /* Add bottom padding */
+    color: white;
+    /* White text color */
+}
+
+.html {
+    background-color: #04AA6D;
+    width: 90%;
+}
+
+
+/* Green */
+
+.css {
+    background-color: #2196F3;
+    width: 80%;
+}
+
+
+/* Blue */
+
+.js {
+    background-color: #f44336;
+    width: 65%;
+}
+
+
+/* Red */
+
+.php {
+    background-color: #808080;
+    width: 60%;
+}
+
+
+/* Dark Grey */
+
+.res1 {
+    margin-left: 20px;
+    width: 50%;
+}
+
+#contact {
+    margin-top: 20px;
+    background-color: #ddd;
+}
+
+.contact_b1_1 {
+    text-align: center;
+}
+
+.contact_b1_2 {
+    text-align: center;
+    width: 100%;
+    display: inline-flex;
+}
+
+.am_4 {
+    text-align: center;
+    width: 100%;
+    display: inline-flex;
+}
+
+.con {
+    background-color: #125688;
+    margin: 25px;
+    width: 100%;
+    height: 50%;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li+li {
+    margin-top: 1em;
+}
+
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+    /* Match form field borders */
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+}
+
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+    /* Provide space to type some text */
+    height: 5em;
+}
+
+.button {
+    /* Align buttons with the text fields */
+    padding-left: 90px;
+    /* same size as the label elements */
+}
+
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+    background-color: #999;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+#work {
+    margin-top: 20px;
+    background-color: #ddd;
+    text-align: center;
+}
+
+.work {
+    display: inline-flex;
+}
+
+.work_b1 {
+    margin-left: 200px;
+}
+
+.work_b2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 200px;
+}
